@@ -1,10 +1,11 @@
-package com.bangkit.skutapp
+package com.bangkit.skutapp.view.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.bangkit.skutapp.R
 
 class SplashScreenActivity : AppCompatActivity() {
     private val duration : Long = 3000
