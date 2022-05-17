@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/purple"
+        app:strokeWidth="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/dailyTrivia"
+                style="@style/TextContent.Bold.Big"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Daily Trivia"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dailyTriviaValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="16dp"
+                android:text="Do you know that moisturizer is the best defense against dry skin?"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/dailyTrivia"
+                app:layout_constraintTop_toBottomOf="@+id/dailyTrivia" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBeautyTips"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/purple"
+        android:paddingBottom="10dp"
+        android:text="Beauty Tips"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_baseline_face_retouching_natural_24"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/materialCardView"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonDailyTreatment"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/purple"
+        android:paddingBottom="10dp"
+        android:text="Daily Treatment"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_baseline_calendar_month_24"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:layout_constraintStart_toStartOf="@+id/materialCardView"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDailyTreatment" />
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/circleIndicator"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/purple"
+        app:layout_constraintEnd_toEndOf="@+id/viewPager"
+        app:layout_constraintStart_toStartOf="@+id/viewPager"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager" />
+
+    <TextView
+        android:id="@+id/faceHistoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Face Scan History"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buttonDailyTreatment"
+        app:layout_constraintTop_toBottomOf="@+id/circleIndicator" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="56dp"
+        android:layout_height="229dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faceHistoryLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

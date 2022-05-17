@@ -15,7 +15,7 @@
         <item>Cancer</item>
         <item>Millia</item>
         <item>Rosacea</item>
-        <item>Apakah saya bisa memilih jenis vaksin booster yang diterima?</item>
+        <item>Eksim</item>
     </string-array>
     <string-array name="data_answer">
         <item>Vaksin booster diberikan untuk masyarakat umum mulai 12 Januari 2022.</item>
@@ -24,4 +24,6 @@
         <item>Masyarakat yang termasuk dalam kelompok prioritas penerima vaksin booster dapat mengecek tiket dan jadwal vaksinasi di website dan aplikasi PeduliLindungi. Tiket tersebut dapat digunakan di fasilitas kesehatan atau tempat vaksinasi terdekat pada waktu yang sudah ditentukan.Melalui website, masyarakat bisa mengunjungi pedulilindungi.id dan mengecek status dan tiket vaksinasi dengan memasukkan “Nama Lengkap” dan “NIK”, lalu klik periksa. Jika melalui aplikasi PeduliLindungi, masyarakat bisa mengikuti langkah-langkah berikut:Buka aplikasi PeduliLindungiMasuk dengan akun yang terdaftar Klik menu “Profil” dan pilih “Status Vaksinasi &amp; Hasil Tes Covid-19” Status dan jadwal vaksinasi booster akan muncul di akun. Untuk cek tiket, masuk ke menu “Riwayat dan Tiket Vaksin".</item>
         <item>Masyarakat tidak dapat memilih jenis vaksinasi booster. Jenis vaksin akan ditentukan oleh petugas kesehatan berdasarkan riwayat vaksin dosis 1 dan 2 serta ketersediaan vaksin di tempat layanan.</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
