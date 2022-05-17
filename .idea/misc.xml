@@ -3,15 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.2085" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2085" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2085" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2085" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_main.xml" value="0.28169014084507044" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.12552083333333333" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/view_pager_item.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/bg_button.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/bg_button_disabled.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/mybutton.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/rounded_corner.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
       </map>
     </option>
   </component>

@@ -1,10 +1,11 @@
-package com.bangkit.skutapp
+package com.bangkit.skutapp.view.main
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bangkit.skutapp.R
 import com.bangkit.skutapp.model.ViewPagerItem
 
 class ViewPagerAdapter(private val listDisease: List<ViewPagerItem>) :
@@ -17,11 +18,11 @@ class ViewPagerAdapter(private val listDisease: List<ViewPagerItem>) :
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): ViewPagerAdapter.Pager2ViewHolder {
-        return Pager2ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.view_pager_item , parent, false))
+    ): Pager2ViewHolder {
+        return Pager2ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.view_pager_item, parent, false))
     }
 
-    override fun onBindViewHolder(holder: ViewPagerAdapter.Pager2ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: Pager2ViewHolder, position: Int) {
         val list = listDisease[position]
         holder.itemDiseaseName.text = list.diseaseName
         holder.itemDiseaseDescription.text = list.diseaseDescription

@@ -9,7 +9,6 @@
     </string>
     <string name="app_title">SKUT</string>
     <string name="splash_content_description">splash_image</string>
-    <string name="welcome">Welcome</string>
     <string-array name="data_question">
         <item>Acne</item>
         <item>Cancer</item>
@@ -26,4 +25,11 @@
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="please_login_first">Please login first</string>
+    <string name="password_error">Password minimum 6 characters</string>
+    <string name="login">Login</string>
+    <string name="doesn_t_have_an_account">Doesn\'t have an account?</string>
+    <string name="register">Register</string>
 </resources>

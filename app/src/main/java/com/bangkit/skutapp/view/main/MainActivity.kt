@@ -1,21 +1,22 @@
-package com.bangkit.skutapp
+package com.bangkit.skutapp.view.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.bangkit.skutapp.R
 
-import androidx.viewpager2.widget.ViewPager2
 import com.bangkit.skutapp.databinding.ActivityMainBinding
-import com.bangkit.skutapp.model.ViewPagerItem
-import java.util.ArrayList
+import com.bangkit.skutapp.view.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {
+
    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         selection()
 
 
