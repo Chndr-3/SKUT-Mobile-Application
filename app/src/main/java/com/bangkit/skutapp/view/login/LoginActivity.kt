@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import androidx.appcompat.app.AlertDialog
 import com.bangkit.skutapp.databinding.ActivityLoginBinding
+import com.bangkit.skutapp.model.user.UserModel
 import com.bangkit.skutapp.view.customview.MyButton
 import com.bangkit.skutapp.view.customview.MyEditText
 import com.bangkit.skutapp.view.main.MainActivity
@@ -55,9 +57,25 @@ class LoginActivity : AppCompatActivity() {
                 password.isEmpty() -> {
                     binding.passwordEditTextLayout.error = "Masukkan password"
                 }
+                email != "skut@gmail.com" -> {
+                    binding.emailEditTextLayout.error = "Email tidak sesuai"
+                }
+                password != "skutapp" -> {
+                    binding.passwordEditTextLayout.error = "Password tidak sesuai"
+                }
                 else -> {
-                    val loginIntent = Intent(this, MainActivity::class.java)
-                    startActivity(loginIntent)
+                    AlertDialog.Builder(this).apply {
+                        setTitle("Hore!")
+                        setMessage("Anda berhasil login")
+                        setPositiveButton("Lanjut") { _, _ ->
+                            val intent = Intent(context, MainActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+                            startActivity(intent)
+                            finish()
+                        }
+                        create()
+                        show()
+                    }
                 }
             }
         }

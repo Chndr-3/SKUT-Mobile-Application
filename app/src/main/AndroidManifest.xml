@@ -11,7 +11,13 @@
         android:theme="@style/Theme.SkutApp" >
         <activity
             android:name=".view.login.LoginActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".view.register.RegisterActivity"
             android:exported="false" />
@@ -19,11 +25,7 @@
             android:name=".view.main.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashScreen" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".view.main.MainActivity"

@@ -1,12 +1,16 @@
 package com.bangkit.skutapp.view.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.bangkit.skutapp.R
 
 import com.bangkit.skutapp.databinding.ActivityMainBinding
+import com.bangkit.skutapp.model.user.UserModel
 import com.bangkit.skutapp.view.home.HomeFragment
+import com.bangkit.skutapp.view.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         selection()
-
 
     }
 

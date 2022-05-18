@@ -32,7 +32,7 @@ class MyButton : AppCompatButton {
 
         background = if(isEnabled) enabledBackground else disabledBackground
         setTextColor(txtColor)
-        textSize = 12f
+        textSize = 24f
         gravity = Gravity.CENTER
     }
 
