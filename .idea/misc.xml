@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/bg_button.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/bg_button_disabled.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/mybutton.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/drawable/rounded_corner.xml" value="0.1655" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/abiyy/Documents/Akademik/Kuliah/Bangkit/Capstone/Project/SKUT-Mobile-application/app/src/main/res/menu/option_menu.xml" value="0.20261713803292528" />
+
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/bg_button.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_face_retouching_natural_24.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_disease.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_register.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/toolbar_title_layout.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/view_pager_item.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
