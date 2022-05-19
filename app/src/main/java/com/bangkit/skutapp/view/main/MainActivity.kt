@@ -4,9 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import android.net.Uri
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.provider.MediaStore
+import androidx.appcompat.app.ActionBar
+import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
 import com.bangkit.skutapp.R
-
 import com.bangkit.skutapp.databinding.ActivityMainBinding
 import com.bangkit.skutapp.model.user.UserModel
 import com.bangkit.skutapp.view.home.HomeFragment
@@ -20,9 +25,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         selection()
-
     }
 
     private fun selection() {

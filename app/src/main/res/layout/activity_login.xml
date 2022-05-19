@@ -109,7 +109,7 @@
         android:background="@android:color/transparent"
         android:text="@string/register"
         android:textAllCaps="false"
-        android:textColor="@color/purple"
+        android:textColor="@color/blue"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvRegister"
         app:layout_constraintStart_toEndOf="@+id/tvRegister"
