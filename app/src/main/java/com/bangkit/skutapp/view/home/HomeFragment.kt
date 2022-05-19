@@ -3,24 +3,35 @@ package com.bangkit.skutapp.view.home
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.bangkit.skutapp.R
 import com.bangkit.skutapp.databinding.FragmentHomeBinding
 import com.bangkit.skutapp.model.ViewPagerItem
+import com.bangkit.skutapp.model.user.UserModel
 import com.bangkit.skutapp.view.login.LoginActivity
+import java.util.ArrayList
 import com.bangkit.skutapp.view.main.ViewPagerAdapter
 
 
+
 class HomeFragment : Fragment() {
+
     private lateinit var binding: FragmentHomeBinding
     private val list = ArrayList<ViewPagerItem>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FragmentHomeBinding.inflate(layoutInflater)
         list.addAll(listViewPagerItem)
+
         setHasOptionsMenu(true)
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
+        binding.viewPager.currentItem = 2
 
     }
     private val listViewPagerItem: ArrayList<ViewPagerItem>
@@ -52,9 +63,11 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         showViewPager()
     }
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.option_menu, menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.logoutButton -> {
