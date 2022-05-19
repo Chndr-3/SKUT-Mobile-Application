@@ -14,14 +14,14 @@
         <item>Cancer</item>
         <item>Millia</item>
         <item>Rosacea</item>
-        <item>Eksim</item>
+        <item>Eczema</item>
     </string-array>
     <string-array name="data_answer">
-        <item>Vaksin booster diberikan untuk masyarakat umum mulai 12 Januari 2022.</item>
-        <item>Vaksin booster gratis untuk semua masyarakat.</item>
-        <item>Anda bisa mendapatkan vaksin booster setelah 6 bulan mendapatkan vaksin dosis kedua. Jadwal dan tiket vaksinasi akan muncul di aplikasi PeduliLindungi pada menu “Status Vaksinasi &amp; Hasil Tes Covid-19”.</item>
-        <item>Masyarakat yang termasuk dalam kelompok prioritas penerima vaksin booster dapat mengecek tiket dan jadwal vaksinasi di website dan aplikasi PeduliLindungi. Tiket tersebut dapat digunakan di fasilitas kesehatan atau tempat vaksinasi terdekat pada waktu yang sudah ditentukan.Melalui website, masyarakat bisa mengunjungi pedulilindungi.id dan mengecek status dan tiket vaksinasi dengan memasukkan “Nama Lengkap” dan “NIK”, lalu klik periksa. Jika melalui aplikasi PeduliLindungi, masyarakat bisa mengikuti langkah-langkah berikut:Buka aplikasi PeduliLindungiMasuk dengan akun yang terdaftar Klik menu “Profil” dan pilih “Status Vaksinasi &amp; Hasil Tes Covid-19” Status dan jadwal vaksinasi booster akan muncul di akun. Untuk cek tiket, masuk ke menu “Riwayat dan Tiket Vaksin".</item>
-        <item>Masyarakat tidak dapat memilih jenis vaksinasi booster. Jenis vaksin akan ditentukan oleh petugas kesehatan berdasarkan riwayat vaksin dosis 1 dan 2 serta ketersediaan vaksin di tempat layanan.</item>
+        <item>Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages.</item>
+        <item>Skin cancer is the out-of-control growth of abnormal cells in the epidermis, the outermost skin layer, caused by unrepaired DNA damage that triggers mutations. These mutations lead the skin cells to multiply rapidly and form malignant tumors.</item>
+        <item>Milia are small, dome-shaped bumps that are usually white or yellow. They’re usually not itchy or painful. However, they may cause discomfort for some people. Rough sheets or clothing may cause milia to appear irritated and red.</item>
+        <item>Rosacea (roe-ZAY-she-uh) is a common skin condition that causes blushing or flushing and visible blood vessels in your face. It may also produce small, pus-filled bumps. </item>
+        <item>Eczema is a term related to inflammation of the skin. This disorder is also known as dermatitis. When it occurs, an allergic skin reaction can be characterized by the appearance of redness, rash, and itching.</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
