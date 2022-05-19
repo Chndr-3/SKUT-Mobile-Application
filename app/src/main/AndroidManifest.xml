@@ -25,22 +25,10 @@
         <activity
             android:name=".view.main.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/SplashScreen" >
+            android:theme="@style/SplashScreen" />
+        <activity
             android:name=".view.disease.DiseaseActivity"
             android:exported="false" />
-        <activity
-            android:name=".view.login.LoginActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-        </activity>
-        <activity
-            android:name=".view.register.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.main.SplashScreenActivity"
-            android:exported="true"
-            android:theme="@style/SplashScreen" />
         <activity
             android:name=".view.main.MainActivity"
             android:exported="true" />
