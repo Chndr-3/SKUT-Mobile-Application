@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/bg_button.xml" value="0.2085" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2085" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_face_retouching_natural_24.xml" value="0.2085" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2085" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2085" />
@@ -16,6 +17,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/toolbar_title_layout.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/layout/view_pager_item.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/menu/option_menu.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/SkutApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
       </map>
     </option>
   </component>
